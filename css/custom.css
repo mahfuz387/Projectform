@@ -49,6 +49,10 @@
   transition: all 0.4s ease
 
 }
+.form{
+         
+    background: red;
+}
  ul li:last-child a:after{
     background: transparent;
 }
@@ -68,10 +72,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   padding: 30px;
   margin-top: 20px;
- 
   border-radius: 5px;
+  position: fixed;
 
 }
   
